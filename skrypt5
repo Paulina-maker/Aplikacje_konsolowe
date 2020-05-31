@@ -1,0 +1,3 @@
+add_object b -below A
+display_object
+

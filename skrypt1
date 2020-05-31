@@ -1,2 +1,5 @@
 add_object a
-
+add_object b
+add_object ab -below a
+add_object abc -below a/ab
+display_object
