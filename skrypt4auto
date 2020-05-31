@@ -1,0 +1,12 @@
+puts "Test4"
+puts "Proba dodania obiektu juz istniejacego"
+add_object ABC
+if {[catch {add_object ABC}]} {
+        puts "BLAD"
+} else {
+        puts "Dodano obiekt ABC"
+        display_object
+}
+exit
+~
+

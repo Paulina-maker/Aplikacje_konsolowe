@@ -1,0 +1,11 @@
+
+puts "Test3"
+puts "Proba dodania obiektu ze znakami specjalnymi w nazwie"
+if {[catch {add_object |ABC|}]} {
+        puts "BLAD"
+} else {
+        puts "Dodano obiekt |ABC|"
+        display_object
+}
+exit
+

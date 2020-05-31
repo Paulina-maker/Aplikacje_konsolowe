@@ -1,0 +1,9 @@
+puts "Test1"
+puts "Proba dodania obiektu ABC"
+if {[catch {add_object ABC}]} { 
+	puts "BLAD"
+} else {
+	puts "Dodano obiekt ABC"
+	display_object
+}
+exit 

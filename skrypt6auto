@@ -1,0 +1,6 @@
+
+puts "Test6"
+puts "Proba wyjscia z aplikacji"
+set x "exit"
+if {$x==$exit}
+puts "OPUSZCZONO APLIKACJE"

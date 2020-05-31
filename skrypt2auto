@@ -1,0 +1,10 @@
+puts "Test2"
+puts "Proba dodania obiektu a pod ABC"
+add_object ABC
+if {[catch {add_object a -below  ABC}]} {
+        puts "BLAD"
+} else {
+        puts "Dodano obiekt a pod ABC"
+        display_object
+}
+exit
